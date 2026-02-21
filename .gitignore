@@ -1,1 +1,30 @@
-/.cursor/
+/node_modules
+
+# env files
+.env
+.env.*
+!.env.example
+
+# build artifacts
+tmp/
+dist/
+build/
+
+# Turbo
+.turbo/
+
+# E2E / Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Editor / tooling (safe to ignore for public repo)
+.cursor/
+.kiro/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

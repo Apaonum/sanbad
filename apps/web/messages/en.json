@@ -1,0 +1,33 @@
+{
+  "Common": {
+    "appName": "Badminton Courts",
+    "languageSwitcherLabel": "Language"
+  },
+  "SignUp": {
+    "title": "Create an Account",
+    "description": "Sign up to book your court",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "••••••••",
+    "signUpButton": "Sign Up",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginLink": "Sign in"
+  },
+  "Login": {
+    "title": "Welcome Back",
+    "description": "Sign in to book your court",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "signInButton": "Sign In",
+    "orContinueWith": "Or continue with",
+    "loginWithLine": "Login with LINE",
+    "loginWithGoogle": "Login with Google",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "Sign up"
+  }
+}

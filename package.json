@@ -1,0 +1,12 @@
+{
+  "name": "sanbad",
+  "private": true,
+  "packageManager": "npm@11.8.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "babel-plugin-react-compiler": "1.0.0"
+  }
+}
