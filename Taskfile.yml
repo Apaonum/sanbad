@@ -1,20 +1,32 @@
-version: "3"
+version: '3'
 
 tasks:
   dev:
-    desc: รันทั้งหน้าบ้านและหลังบ้าน
-    deps: [web-dev, api-dev]
+    desc: "Start everything for Badminton Project"
+    deps: [web, api]
 
-  web-dev:
+  web:
+    desc: "Start Next.js Frontend"
     cmds:
-      - cd apps/web && npm run dev
+      - npx turbo dev
 
-  api-dev:
-    desc: run only Go Backend (Air for Live Reload)
+  api:
+    desc: "Start Golang Backend with Air"
+    dir: apps/server
     cmds:
-      - cd apps/server && air
+      - air
 
-  db-up:
-    desc: run supabase local
+  db-start:
+    desc: "Start Local Supabase"
     cmds:
       - supabase start
+
+  db-stop:
+    desc: "Stop Local Supabase"
+    cmds:
+      - supabase stop
+
+  db-reset:
+    desc: "Reset DB and Seed data"
+    cmds:
+      - supabase db reset

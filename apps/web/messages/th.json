@@ -1,0 +1,33 @@
+{
+  "Common": {
+    "appName": "สนามแบดมินตัน",
+    "languageSwitcherLabel": "ภาษา"
+  },
+  "SignUp": {
+    "title": "สร้างบัญชี",
+    "description": "สมัครสมาชิกเพื่อจองคอร์ต",
+    "emailLabel": "อีเมล",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "รหัสผ่าน",
+    "passwordPlaceholder": "••••••••",
+    "confirmPasswordLabel": "ยืนยันรหัสผ่าน",
+    "confirmPasswordPlaceholder": "••••••••",
+    "signUpButton": "สมัครสมาชิก",
+    "alreadyHaveAccount": "มีบัญชีอยู่แล้ว?",
+    "loginLink": "เข้าสู่ระบบ"
+  },
+  "Login": {
+    "title": "ยินดีต้อนรับกลับ",
+    "description": "เข้าสู่ระบบเพื่อจองคอร์ต",
+    "emailLabel": "อีเมล",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "รหัสผ่าน",
+    "passwordPlaceholder": "••••••••",
+    "signInButton": "เข้าสู่ระบบ",
+    "orContinueWith": "หรือดำเนินการต่อด้วย",
+    "loginWithLine": "เข้าสู่ระบบด้วย LINE",
+    "loginWithGoogle": "เข้าสู่ระบบด้วย Google",
+    "noAccount": "ยังไม่มีบัญชี?",
+    "signUpLink": "สมัครสมาชิก"
+  }
+}

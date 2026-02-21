@@ -1,0 +1,11 @@
+# env files
+.env
+.env.*
+!.env.example
+
+# build artifacts
+tmp/
+
+# Go binary
+main
+*.exe
